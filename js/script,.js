@@ -36,7 +36,7 @@ function checkInputs() {
         setErrorFor(password, 'Preencha esse campo')
 
     } else if(passwordValue.length < 8) { 
-        setErrorFor(password, 'Senha deve ter mais que 8 caracteres')
+        setErrorFor(password, 'Senha deve ter mais que 8 caracteres!')
     } else {
         setSuccessFor(password)
     }
@@ -46,7 +46,7 @@ function checkInputs() {
         setErrorFor(passwordtwo, 'Preencha esse campo')
 
     } else if(passwordValue !== passwordtwoValue) { 
-        setErrorFor(passwordtwo, 'Senhas não tão iguais')
+        setErrorFor(passwordtwo, 'Senhas não estão iguais')
     } else {
        
         setSuccessFor(passwordtwo)
