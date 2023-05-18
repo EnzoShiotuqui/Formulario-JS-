@@ -46,7 +46,7 @@ function checkInputs() {
         setErrorFor(passwordtwo, 'Preencha esse campo')
 
     } else if(passwordValue !== passwordtwoValue) { 
-        setErrorFor(passwordtwo, 'Senhas não tão iguais')
+        setErrorFor(passwordtwo, 'Senhas não estão iguais')
     } else {
        
         setSuccessFor(passwordtwo)
