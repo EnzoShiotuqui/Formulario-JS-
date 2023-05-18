@@ -25,7 +25,7 @@ function checkInputs() {
     }
 
     if(emailValue === '') {
-        setErrorFor(email, 'Preencha esse campo')
+        setErrorFor(email, 'Preencha esse campo.')
     } else if (!isEmail(emailValue)) {
         setErrorFor(email, 'Email inválido')
     } else {
